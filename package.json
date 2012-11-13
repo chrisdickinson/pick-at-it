@@ -1,0 +1,27 @@
+{
+  "name": "pick-at-it",
+  "version": "0.0.1",
+  "description": "a browserify module that exposes a color picker as a readable stream",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/chrisdickinson/pick-at-it.git"
+  },
+  "keywords": [
+    "color-picker",
+    "stream",
+    "browserify"
+  ],
+  "author": "Chris Dickinson <chris@neversaw.us>",
+  "license": "MIT",
+  "dependencies": {
+    "fffield": "0.0.1"
+  },
+  "devDependencies": {
+    "onecolor": "2.3.0",
+    "jsdom": "0.2.19"
+  }
+}
